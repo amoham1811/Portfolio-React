@@ -161,8 +161,21 @@ const Sidebar = () => {
                 onClick={() => setShowNav(true)}
                 icon={faBars}
                 color="#fdd700"
-                size="2x"
+                size="3x"
                 className='hamburger-icon' />
+
+            {/* <!-- ======= Footer ======= --> */}
+              <footer id="footer">
+                <div className="container">
+                  <div className="copyright">
+                    &copy; Copyright <strong><span>My Portfolio</span></strong>
+                  </div>
+                  <div className="credits">
+                    Designed by <a href="https://ultimate.com/">ultimate</a>
+                  </div>
+                </div>
+              </footer>
+              {/* <!-- End  Footer --> */}
         </div>)
 
 }
