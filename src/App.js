@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/Layout';
 import Home from './components/Home/index';
-import About from './components/pages/About';
-import Blog from './components/pages/Blog';
+import About from './components/About/index';
+//import Portfolio from './components/Portfolio/index';
 import Contact from './components/pages/Contact';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="blog" element={<Blog />} />
+          {/* <Route path="portfolio" element={<Portfolio />} /> */}
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
