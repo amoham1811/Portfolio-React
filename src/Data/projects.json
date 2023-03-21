@@ -1,0 +1,37 @@
+[
+        {
+            "title": "Readme_Generator",
+            "deployedUrl":"https://amoham1811.github.io/Readme_Generator/",
+            "githubUrl":"https://github.com/amoham1811/Readme_Generator",
+            "image": "ReadmeGenerator.jpg",
+            "description": "This applications display a five day weather forecast for the selected city. The application makes two calls to the openweather API. The first call retrieves the coordinates of the selected city and the second retrieves the weather infomation for the day and the forecast for the next seven days."
+        },
+        {
+            "title": "Team_Profile_Generator",
+            "deployedUrl":"https://amoham1811.github.io/Team_Profile_Generator/",
+            "githubUrl":"https://github.com/amoham1811/Team_Profile_Generator",
+            "image": "Murdock.jpg",
+            "description": "This applications collects information information about team members using the imported inquirer module. This data is stored in the instances of the team member classes. A webpage is created from these objects where each team member details are displayed as a card."
+        },
+        {
+            "title": "Weather_Dashboard",
+            "deployedUrl":"https://amoham1811.github.io/Weather_Dashboard/",
+            "githubUrl":"https://github.com/amoham1811/Weather_Dashboard",
+            "image": "WeatherDashboard.jpg",
+            "description": "This applications display a five day weather forecast for the selected city. The application makes two calls to the openweather API. The first call retrieves the coordinates of the selected city and the second retrieves the weather infomation for the day and the forecast for the next seven days."
+        },
+        {
+            "title": "Work_Day_Planner",
+            "deployedUrl":"https://amoham1811.github.io/Work_Day_Planner/",
+            "githubUrl":"https://github.com/amoham1811/Work_Day_Planner",
+            "image": "WorkDaySchedule.jpg",
+            "description": "In this application a days page is created to help a person plan out their working day. The plan consists of hourly rows from 9am to 5pm. Each row is split into three sections with first carrying the time label, the second is for the person to enter activities and the final section contain a button. The entered data is saved to local storage only when the row button is clicked."
+        },
+        {
+            "title": "MyPortfolio",
+            "deployedUrl":"https://amoham1811.github.io/MyPortfolio/",
+            "githubUrl":"https://github.com/amoham1811/MyPortfolio",
+            "image": "Home.png",
+            "description": "This project is intended to provide an introduction to the frontend developer. The portfolio showcases the educational and technical background and provides access to some of the projects completed by hte professional to gauge the technical skills."
+        }
+]

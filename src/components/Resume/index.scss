@@ -1,13 +1,33 @@
 .section-details {
-    margin-left: 15%;
-    // margin-top: 5%;
+    margin-left: 0;
+    margin-top: 0%;
+    width: 200%;  
 }
 
-.align-left {
+#content {
+    background-color:   rgba(0, 0, 255, 0.808);
+    border: 1px solid #000;
+    padding: 0.3rem;
+    float:left;
+   // flex-flow: row;
+    max-width: 80%;
+    display: flex;
+    max-height: fit-content;
+  }
+  
+#left,
+#right {
+    background-color: rgba(10, 10, 10, 0.5);
+    border: 1px solid #fff;
+    padding: 0.5rem;
     width: 49%;
-    float:left ;
+    flex-grow: 1;
+    padding: 2%;
+    color: #fff;
 }
-.align-right {
-    width: 49%;
-    float:right ;
+.p1 {
+    width: 40%;
+}
+.p2 {
+    width: 100%;
 }
