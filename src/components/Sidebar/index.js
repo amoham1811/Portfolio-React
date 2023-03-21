@@ -5,7 +5,7 @@ import LogoS from '../../components/Assets/images/profile-img.jpg'
 import LogoSubtitle from '../../components/Assets/images/SubTitle.jpg'
 import Home from '../../components/Assets/images/home.jpg'
 import About from '../../components/Assets/images/About.jpg'
-import Portfolio from '../../components/Assets/images/portfolio.jpg'
+import Projects from '../../components/Assets/images/portfolio.jpg'
 import Resume from '../../components/Assets/images/resume.jpg'
 import Contact from '../../components/Assets/images/contact.jpg'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -62,11 +62,11 @@ const Sidebar = () => {
                 </NavLink>
                 <NavLink 
                     activeclassname="active" 
-                    className="portfolio-link"
-                    to="/portfolio"
+                    className="projects-link"
+                    to="/projects"
                     onClick={() => setShowNav(false)}
                 >
-                    <img className="sub-portfolio" src={Portfolio} alt="Portfolio"/>
+                    <img className="sub-projects" src={Projects} alt="Projects"/>
                     {/* <FontAwesomeIcon icon={profile} color="#4d4d4e" /> */}
                 </NavLink>
                 
@@ -103,7 +103,7 @@ const Sidebar = () => {
                     <a 
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/slobodan-gajj"
+                        href="https://www.linkedin.com/in/arshad-mohammed-48749a23a/"
                     >
                         <FontAwesomeIcon 
                             icon={faLinkedin} 
@@ -117,7 +117,7 @@ const Sidebar = () => {
                     <a 
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.github.com/in/slobodan-gajj"
+                        href="https://github.com/amoham1811"
                     >
                         <FontAwesomeIcon 
                             icon={faGithub} 
@@ -131,7 +131,7 @@ const Sidebar = () => {
                     <a 
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.youtube.com/in/slobodan-gajj"
+                        href="https://studio.youtube.com/channel/UC6Moy0LsQpterMa3xrdV_Kw"
                     >
                         <FontAwesomeIcon 
                             icon={faYoutube} 
@@ -145,7 +145,7 @@ const Sidebar = () => {
                     <a 
                         target="_blank"
                         rel="noreferrer"
-                        href="skype:live:username"
+                        href="skype:live:c1e8e7b744a37ea5"
                     >
                         <FontAwesomeIcon 
                             icon={faSkype} 
