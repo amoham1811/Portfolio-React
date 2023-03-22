@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# MyPortfolio
+This project is intended to provide an introduction to the frontend developer. This project is developed using react technologies and using components and routing along with many other features such as hooks, emailjs, etc. The portfolio showcases the educational and technical background and provides access to some of the projects completed by the professional to gauge the technical skills. The portfolio is divided into five sections as follows:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. **Home** - Title page with navigation
+2. **About** - Snapshot of developers background and contact details.
+3. **Projects** - List of developers projects available for public viewing.
+4. **Resume** - More detailed account of education and career.
+5. **Contact** - Provides some contact details.
 
-## Available Scripts
+## Home Page
+The homepage provides a small image of the developer in the left hand panel. The user can click on the links provide in the left hand panel to navigate to the desired section e.g. click on "Resume" to navigate to the resume section (see image below). In addition to this links are also provided to developers linkedIn profile, github pages,etc. 
 
-In the project directory, you can run:
+![Home](./src/components/Assets/images/Home_Page.jpg)
 
-### `npm start`
+## About Page
+This page provides a developer snapshot. There is a small photo of the developer together with some personal and contact details. There are brief summary of past achievements and interest. The page images is provided below:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![About](./src/components/Assets/images/About_Page.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Projects
+This is perhaps the most important part as it provides links to the most recent projects completed by the developer and provides an insight into the skills possessed by the developer for potential clients or employers. This page was produced using several components and react technologies. 
 
-### `npm test`
+![Projects](./src/components/Assets/images/Projects_Page.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Resume Page
+This page displays the highest levels of educational qualifications held by the developers and it also provides details of the most relevant jobs held.
 
-### `npm run build`
+![Resume](./src/components/Assets/images/Resume_Page.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact page
+Multi channel contact details for the developer are provided in this section. There is also a form to send a email messages to the developer using EmailJs technologies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Contact](./src/components/Assets/images/Contact_Page.jpg)
 
-### `npm run eject`
+## Future Developments
+The contact page displaying a map location using google maps would complement the address details for anyone wishing to visit or simply to have an idea of the geographical location. Some animation could be added to make the pages come alive. Finally, additional pages could be added to provide additional information e.g. display developer skills and proficiency.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project was put together using react components and made use of html, css, fortawesome fonts and icons, hooks, EmailJs and many other technologies. The project shows how react technologies can render a sophisticated application using minimal codde.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Github Repository
+The project can be viewed at:
+https://github.com/amoham1811/Portfolio-React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+and it requires the implementation of node to view the application.

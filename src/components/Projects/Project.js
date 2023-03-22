@@ -1,5 +1,4 @@
 import React from 'react';
-//import placeholder from "../../../public/images/Home.png";
 import {useState} from 'react';
 import './index.scss';
 
@@ -8,6 +7,7 @@ const Project = ({ title, deployedUrl, githubUrl, image, description }) => {
     function getImg(src) {
         import(`../../../public/images/${src}`).then((image) => setImg(image.default));
     }
+    //set image on each import of data from json file.
     getImg(image);
     return (
         <div data-test='component-character'>
